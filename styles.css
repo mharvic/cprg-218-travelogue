@@ -70,7 +70,7 @@ main{
 
 }
 #keyvisual{
-    background-image: url("Home-Banner.jpg");
+    background-image: url("./images/Home-Banner.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     display:flex;
@@ -105,7 +105,7 @@ main{
 
 
 #bohol{
-    background-image: url("Bohol-Banner.jpg");
+    background-image: url("./images/Bohol-Banner.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     display:flex;
@@ -120,7 +120,7 @@ main{
 }
     
 #jasper{
-    background-image: url("Jasper-Banner.jpg");
+    background-image: url("./images/Jasper-Banner.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     display:flex;
