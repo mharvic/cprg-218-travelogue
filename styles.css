@@ -130,6 +130,17 @@ main{
     height:900px;
     gap:15rem;
 }
+#boracay{
+    background-image: url("./images/Boracay-Banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 2.50rem;
+    height:900px;
+    gap:15rem;
+}
 footer{
     background-color:#333;
     color: #f9f9f9;
