@@ -1,3 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 40px 10px 40px;
+}
+
+h1 {
+  font-family: "Spinnaker", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-family: "Spinnaker", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5rem;
+}
+
+p{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:20px;
+}
+nav{
+     margin-left:auto;
+}
+nav a{
+    text-decoration:none;
+    display:block;
+    padding:1rem;
+    color: #333;
+}
+nav a:hover{
+    padding:1rem;
+    background-color: #333;
+    color: #f9f9f9;
+    border-radius:.5rem;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    margin:0;
+    padding: 0;
+    justify-content:flex-end;
+    gap: .5rem;
+}
+nav a.active{
+    background-color: #333;
+    color: #f9f9f9;
+    border-radius:.5rem;
+}
 body{
-    background-color:lightblue;
+    
+}
+main{
+
+}
+#keyvisual{
+    background-image: url("Home-Banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20rem;
+    padding: 2.50rem;
+    height:900px;
+    margin-top: -170px;
+}
+.explore{
+    text-align:center;
+    display:block;
+    margin-top:20px;
+    width: 200px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration:none;
+    color: #333;
+}
+.bold-name{
+    font-weight:700;
+}
+.explore:hover{
+    background-color:#333;
+    color:#f9f9f9;
+    border: 2px solid #f9f9f9;
+    text-decoration:none;
+}
+
+
+#bohol{
+    background-image: url("Bohol-Banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 2.50rem;
+    height:900px;
+    gap:15rem;
+}
+.boracay-desc{
+    padding-left:1rem;
+}
+    
+#jasper{
+    background-image: url("Jasper-Banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 2.50rem;
+    height:900px;
+    gap:15rem;
+}
+footer{
+    background-color:#333;
+    color: #f9f9f9;
+    padding:1rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
