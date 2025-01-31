@@ -35,21 +35,25 @@ p{
   font-style: normal;
   margin-top:20px;
 }
+
 nav{
      margin-left:auto;
 }
+
 nav a{
     text-decoration:none;
     display:block;
     padding:1rem;
     color: #333;
 }
+
 nav a:hover{
     padding:1rem;
     background-color: #333;
     color: #f9f9f9;
     border-radius:.5rem;
 }
+
 nav ul{
     list-style:none;
     display:flex;
@@ -58,17 +62,13 @@ nav ul{
     justify-content:flex-end;
     gap: .5rem;
 }
+
 nav a.active{
     background-color: #333;
     color: #f9f9f9;
     border-radius:.5rem;
 }
-body{
-    
-}
-main{
 
-}
 #keyvisual{
     background-image: url("./images/Home-Banner.jpg");
     background-repeat: no-repeat;
@@ -81,6 +81,7 @@ main{
     height:900px;
     margin-top: -170px;
 }
+
 .explore{
     text-align:center;
     display:block;
@@ -93,16 +94,17 @@ main{
     text-decoration:none;
     color: #333;
 }
+
 .bold-name{
     font-weight:700;
 }
+
 .explore:hover{
     background-color:#333;
     color:#f9f9f9;
     border: 2px solid #f9f9f9;
     text-decoration:none;
 }
-
 
 #bohol{
     background-image: url("./images/Bohol-Banner.jpg");
@@ -114,9 +116,6 @@ main{
     padding: 2.50rem;
     height:900px;
     gap:15rem;
-}
-.boracay-desc{
-    padding-left:1rem;
 }
     
 #jasper{
@@ -130,6 +129,7 @@ main{
     height:900px;
     gap:15rem;
 }
+
 #boracay{
     background-image: url("./images/Boracay-Banner.jpg");
     background-repeat: no-repeat;
@@ -141,6 +141,7 @@ main{
     height:900px;
     gap:15rem;
 }
+
 footer{
     background-color:#333;
     color: #f9f9f9;
